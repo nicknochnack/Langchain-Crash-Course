@@ -1,6 +1,11 @@
-# Bring in deps
+#!/usr/bin/env python3
+from dotenv import load_dotenv
+
+# Load default environment variables (.env)
+load_dotenv()
+
+# Bring in dependencies
 import os 
-from apikey import apikey 
 
 import streamlit as st 
 from langchain.llms import OpenAI
@@ -8,8 +13,6 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain 
 from langchain.memory import ConversationBufferMemory
 from langchain.utilities import WikipediaAPIWrapper 
-
-os.environ['OPENAI_API_KEY'] = apikey
 
 # App framework
 st.title('🦜🔗 YouTube GPT Creator')
@@ -23,7 +26,7 @@ title_template = PromptTemplate(
 
 script_template = PromptTemplate(
     input_variables = ['title', 'wikipedia_research'], 
-    template='write me a youtube video script based on this title TITLE: {title} while leveraging this wikipedia reserch:{wikipedia_research} '
+    template='write me a youtube video script based on this title TITLE: {title} while leveraging this wikipedia research:{wikipedia_research} '
 )
 
 # Memory 

@@ -1,0 +1,6 @@
+langchain==0.0.174
+streamlit==1.22.0
+openai==0.27.2
+wikipedia==1.4.0
+chromadb==0.3.23
+tiktoken==0.3.3
