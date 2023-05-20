@@ -8,7 +8,7 @@ Watch this made on YouTube - https://youtu.be/MlK6SIjcjE8
 
 # Setup the sample
 To use the script, you will need to follow these steps:
-- Clone the repository via `git clone https://github.com/ushakrishnan/Langchain-Crash-Course.git` and `cd` into the cloned repository.
+- Clone the repository via `git clone https://github.com/nicknochnack/Langchain-Crash-Course.git` and `cd` into the cloned repository.
 - Install the required packages: `pip install -r requirements.txt`
 - Copy the .env.template file to .env: `cp .env.template .env`. This is where you will set the following variables.
 - Set your OpenAI API key in the OPENAI_API_KEY
