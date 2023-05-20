@@ -22,4 +22,12 @@ Streamlit will spin up a page that will look like this
 Go ahead and type in the keyword / subject for which you would like this program to do research on wikipedia and write up the script for your video and press return / enter.  After a few seconds, you will see details on the page for your quick start script including the research used from Wikipedia search.
 <img src=/assets/page.png height=400>
 
+# Packages used
+- Streamlit - https://github.com/streamlit/streamlit
+- LangChain - https://github.com/hwchase17/langchain
+- OpenAI - https://github.com/openai/openai-python
+- Wikipedia - https://pypi.org/project/wikipedia/
+- Chroma - https://github.com/chroma-core/chroma
+- TikToken - https://github.com/openai/tiktoken
+
 Have fun creating your YouTube video.

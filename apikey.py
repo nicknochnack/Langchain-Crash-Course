@@ -1,1 +1,0 @@
-apikey = 'your apikey here'
